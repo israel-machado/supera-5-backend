@@ -1,6 +1,7 @@
 package br.com.banco.model.ContaBancaria;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @Table(name = "conta")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Data
 public class ContaBancariaDomain {
 

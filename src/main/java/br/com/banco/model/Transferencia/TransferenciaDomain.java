@@ -2,6 +2,7 @@ package br.com.banco.model.Transferencia;
 
 import br.com.banco.model.ContaBancaria.ContaBancariaDomain;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,6 +14,7 @@ import java.time.LocalDateTime;
 @Table(name = "transferencia")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Data
 
 public class TransferenciaDomain {
