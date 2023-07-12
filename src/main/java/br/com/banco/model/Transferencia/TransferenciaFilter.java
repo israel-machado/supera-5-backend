@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Builder
 @Data
-public class TransferenciaRequest {
+public class TransferenciaFilter {
 
     private LocalDateTime dataInicio;
     private LocalDateTime dataFim;
