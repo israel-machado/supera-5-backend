@@ -10,6 +10,5 @@ import lombok.NoArgsConstructor;
 public class ContaBancariaResponse {
 
     private Long id;
-    private String numero;
-    private String titular;
+    private String nomeResponsavel;
 }

@@ -9,6 +9,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class ContaBancariaRequest {
 
-    private String numero;
-    private String titular;
+    private String nomeResponsavel;
 }

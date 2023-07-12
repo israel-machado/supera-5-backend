@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @Data
 public class TransferenciaRequest {
 
-    private String numeroContaOrigem;
-    private String numeroContaDestino;
-    private String operadorTransacao;
+    private LocalDateTime dataTransferencia;
     private BigDecimal valor;
-    private LocalDateTime data;
+    private String tipo;
+    private String nomeOperadorTransacao;
+    private Long idConta;
 }

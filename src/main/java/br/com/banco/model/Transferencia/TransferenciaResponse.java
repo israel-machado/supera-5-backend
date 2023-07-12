@@ -1,5 +1,6 @@
 package br.com.banco.model.Transferencia;
 
+import br.com.banco.model.ContaBancaria.ContaBancariaDomain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,9 +14,9 @@ import java.time.LocalDateTime;
 public class TransferenciaResponse {
 
     private Long id;
-    private String numeroContaOrigem;
-    private String numeroContaDestino;
-    private String operadorTransacao;
+    private LocalDateTime dataTransferencia;
     private BigDecimal valor;
-    private LocalDateTime data;
+    private String tipo;
+    private String nomeOperadorTransacao;
+    private ContaBancariaDomain conta;
 }
