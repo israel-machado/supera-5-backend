@@ -50,6 +50,19 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.primefaces/primefaces -->
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>13.0.0-RC2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.webjars.npm/axios -->
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>axios</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
